@@ -1,0 +1,59 @@
+header{
+  background-color: black;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+a{
+  font-size: 40px;
+  margin-left: 80%;
+
+}
+/*form stylesheets*/
+.main{
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.carrer{
+  width: 80%;
+  background-color: cyan;
+  margin: 1%;
+  padding: 1%;
+  text-align: center;
+  color: black;
+  border: 3px solid #0099ff;
+  box-shadow: 2px 2px 2px 2px #0099ff;
+
+}
+.carrer input{
+  width: 70%;
+}
+.sub{
+  width: 43%;
+  background-color: #ffff66;
+  margin: 1%;
+  padding: 1%;
+  text-align: center;
+  color: black;
+  border: 3px solid #b3ff1a;
+  box-shadow: 2px 2px 2px 2px #ccff66;
+
+}
+.sub input,.sub select{
+  padding: 1%;
+  margin: 1%;
+  font-size: 15px;
+  width: 80%;
+}
+button{
+  font-size: 20px;
+  font-weight: bold;
+  padding: 1%;
+  color: white;
+  background:  #990000;
+}
