@@ -43,12 +43,16 @@ store=result.createObjectStore("resume",{keyPath:"Id",autoIncrement:true});
        card.appendChild(image);
 
        let a=document.createElement("a");
-       a.href="#";
+       a.href="resume.html?Id="+getprofile[i].Id;
        card.appendChild(a);
 
        let name=document.createElement("h2");
        name.textContent=getprofile[i].Name;
        a.appendChild(name);
+
+       let email=document.createElement("h5");
+       email.textContent=getprofile[i].Email;
+       card.appendChild(email);
      }
 
    }

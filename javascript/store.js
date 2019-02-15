@@ -82,6 +82,7 @@ function submit() {
       console.log("error"+e);
   }
 
+   window.open("index.html","_self");
 
 
 
