@@ -57,3 +57,18 @@ button{
   color: white;
   background:  #990000;
 }
+.cards{
+  width: 100%;
+  background: #b3ff1a;
+}
+.card{
+  background: #00ffbf;
+  width: 30%;
+  box-shadow: 2px 2px 2px black;
+  text-align: center;
+  padding: 2%;
+  margin: 1%;
+}
+img{
+  width: 100%;
+}
