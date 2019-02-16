@@ -66,23 +66,25 @@ function submit() {
          Marks:imarks
        },
        {
-       Board:board,
-       school:school,
-       Medium:medium,
+       Degree:board,
+       College:school,
+      Branch:medium,
        Marks:smarks
      }
 
 
-       ]
+   ],
+       skills:skills
        }
      );
+     window.open("index.html","_self");
+
   }
     //error
     request.onerror=function(e){
       console.log("error"+e);
   }
 
-   window.open("index.html","_self");
 
 
 

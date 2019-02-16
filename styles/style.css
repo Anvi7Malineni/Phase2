@@ -5,7 +5,7 @@ header{
   text-align: center;
   font-weight: bold;
 }
-a{
+.a{
   font-size: 40px;
   margin-left: 80%;
 
@@ -67,11 +67,54 @@ button{
 .card{
   background: #00ffbf;
   width: 30%;
-  box-shadow: 2px 2px 2px black;
+  box-shadow: 2px 2px 2px 2px black;
   text-align: center;
-  padding: 2%;
+  padding: 1%;
   margin: 1%;
 }
 img{
   width: 100%;
+}
+.left
+{
+  width: 30%;
+  background-color: #ddd;
+  border: 3px solid #000000;
+  box-shadow: 3px 3px 3px black;
+  text-align: center;
+}
+.right
+{
+  margin: 1%;
+  padding: 1%;
+  background-color: #dda;
+  border: 3px solid #000000;
+  box-shadow: 3px 3px 3px black;
+}
+@media screen and (min-width:320px) and (max-width:480px){
+  .cards{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .card{
+    width:90%;
+  }
+}
+@media screen and (min-width:481px) and (max-width:800px){
+  .cards{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .card{
+    width:43%;
+  }
+}
+@media screen and (min-width:801px) and (max-width:1300px){
+  .cards{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .card{
+    width:28%;
+  }
 }
