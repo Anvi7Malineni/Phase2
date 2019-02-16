@@ -92,22 +92,55 @@ img{
   box-shadow: 3px 3px 3px black;
 }
 @media screen and (min-width:320px) and (max-width:480px){
-  .cards{
+  .cards,.main{
     display: flex;
     flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
   }
-  .card{
+  .card,.sub{
     width:90%;
+
+  }
+  .carrer{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .left{
+    width:93%;
+  }
+  .right{
+    width: 93%;
   }
 }
 @media screen and (min-width:481px) and (max-width:800px){
-  .cards{
+  .cards,.main{
     display: flex;
     flex-wrap: wrap;
+
   }
   .card{
     width:43%;
   }
+  .sub{
+    width: 93%;
+
+  }
+  .carrer,.main{
+    margin-left: auto;
+    margin-right: auto;
+  }
+.button{
+  margin-left: 45%;
+}
+.left{
+  width:93%;
+  font-size: 16px;
+}
+.right{
+  width:93%;
+}
+
 }
 @media screen and (min-width:801px) and (max-width:1300px){
   .cards{
